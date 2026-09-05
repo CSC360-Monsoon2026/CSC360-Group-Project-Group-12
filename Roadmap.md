@@ -1,5 +1,18 @@
 # Project Roadmap
 
+             JavaFX Application
+                    │
+             ┌──────┴──────┐
+             │             │
+          Button        WebView
+             │             │
+             │          HTML Page
+             │             │
+             └──────►  DOM
+                      │
+                Text/Color
+                   change
+
 ## Phase 1: JavaFX Setup
 - Configure JavaFX with Maven
 - Verify JavaFX runtime
