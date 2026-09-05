@@ -1,5 +1,56 @@
 # CSC360-Group-Project-Group-12
 
+# JavaFX Browser DOM Project
+
 ## Project Overview
 
-This project is a JavaFX application with browser support. It uses JavaFX WebView to display web pages inside the application. The project also demonstrates DOM manipulation, where JavaFX buttons can be used to modify webpage content and styling through JavaScript.
+This project is a JavaFX-based application that provides browser support using JavaFX WebView.
+
+The main objective of the project is to demonstrate how a JavaFX application can interact with a web page and modify its DOM (Document Object Model).
+
+The application will contain a JavaFX interface with a button and a browser component. The button will be used to perform changes on the HTML page, such as changing text or text color.
+
+## Project Approach
+
+The project will be developed step-by-step:
+
+JavaFX Application
+        ↓
+Button + WebView
+        ↓
+HTML Page
+        ↓
+DOM
+        ↓
+Text / Color Change
+
+## Technologies Used
+
+- Java
+- JavaFX
+- JavaFX WebView
+- HTML
+- JavaScript
+- Maven
+
+## Current Progress
+
+- JavaFX environment configured
+- Basic JavaFX application created
+- JavaFX runtime tested successfully
+- GitHub repository connected
+- WebView and DOM integration will be implemented next
+
+## Expected Outcome
+
+The final application will allow a JavaFX button to interact with the browser content and make changes to the HTML DOM dynamically.
+
+## Project Structure
+
+```text
+JavaFXBrowserDOM/
+├── src/
+├── README.md
+├── ROADMAP.md
+├── METHODOLOGY.md
+└── pom.xml
