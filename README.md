@@ -33,24 +33,9 @@ Text / Color Change
 - JavaScript
 - Maven
 
-## Current Progress
 
-- JavaFX environment configured
-- Basic JavaFX application created
-- JavaFX runtime tested successfully
-- GitHub repository connected
-- WebView and DOM integration will be implemented next
 
 ## Expected Outcome
 
 The final application will allow a JavaFX button to interact with the browser content and make changes to the HTML DOM dynamically.
 
-## Project Structure
-
-```text
-JavaFXBrowserDOM/
-├── src/
-├── README.md
-├── ROADMAP.md
-├── METHODOLOGY.md
-└── pom.xml
