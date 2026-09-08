@@ -1,5 +1,5 @@
 # Project Roadmap
-![JavaFX Browser DOM Architecture](javafx_webview_architecture.png)
+![JavaFX Browser DOM Architecture](images/javafx_webview_architecture.png)
 
 ## Phase 1: JavaFX Setup
 - Configure JavaFX with Maven
@@ -34,4 +34,4 @@
 - Fix errors
 - Prepare the final project
 
-![Project Roadmap](project_roadmap_stages.png)
+![Project Roadmap](images/project_roadmap_stages.png)
