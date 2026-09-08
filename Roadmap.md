@@ -34,4 +34,4 @@
 - Fix errors
 - Prepare the final project
 
-![Project Roadmap](images/project_roadmap_stages.png)
+
