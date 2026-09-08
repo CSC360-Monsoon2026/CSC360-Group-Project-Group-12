@@ -13,17 +13,17 @@ The application will contain a JavaFX interface with a button and a browser comp
 ## Project Approach
 
 The project will be developed step-by-step:
-
+```text
 JavaFX Application
         ↓
 Button + WebView
         ↓
 HTML Page
         ↓
-DOM
+DOM Manipulation
         ↓
 Text / Color Change
-
+```
 ## Technologies Used
 
 - Java
