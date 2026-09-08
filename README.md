@@ -1,6 +1,6 @@
 # CSC360-Group-Project-Group-12
 
-# JavaFX Browser DOM Project
+### Write a JavaFx program with browser support. A button on JavFx should be able to make changes with browser DOM object.
 
 ## Project Overview
 
