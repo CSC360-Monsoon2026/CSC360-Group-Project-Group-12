@@ -1,17 +1,5 @@
 # Project Roadmap
-
-             JavaFX Application
-                    │
-             ┌──────┴──────┐
-             │             │
-          Button        WebView
-             │             │
-             │          HTML Page
-             │             │
-             └──────►  DOM
-                      │
-                Text/Color
-                   change
+![JavaFX Browser DOM Architecture](javafx_webview_architecture.png)
 
 ## Phase 1: JavaFX Setup
 - Configure JavaFX with Maven
@@ -45,3 +33,5 @@
 - Test all JavaFX and DOM interactions
 - Fix errors
 - Prepare the final project
+
+![Project Roadmap](project_roadmap_stages.png)
