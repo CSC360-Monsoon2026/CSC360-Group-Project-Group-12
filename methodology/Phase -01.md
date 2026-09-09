@@ -1,5 +1,5 @@
 # Phase 1: JavaFX Setup — Methodology
-
+![JavaFX Dark Theme](../images/phase1_darktheme.png)
 ## Objective
 
 The objective of Phase 1 was to set up the JavaFX environment correctly and verify that a basic JavaFX application could run successfully before moving towards browser and DOM integration.
