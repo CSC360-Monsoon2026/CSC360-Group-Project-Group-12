@@ -106,3 +106,23 @@ JavaFX Application
    BOTTOM
       │
  Change DOM
+
+
+````
+## Result
+
+The basic JavaFX interface was successfully created.
+
+The application now contains a JavaFX window with a `WebView` in the center and an `HBox` containing three buttons at the bottom:
+
+- `Change Text`
+- `Change Color`
+- `Reset Page`
+
+The interface was successfully displayed, and the buttons were added to provide controls for interacting with the webpage.
+
+## Phase 2 Status
+
+**Completed**
+
+The basic JavaFX interface has been successfully created. The application now has the required layout and controls and is ready for the next phase of browser and DOM integration.
