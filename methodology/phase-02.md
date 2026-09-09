@@ -6,9 +6,18 @@ The objective of Phase 2 was to create the basic user interface for the JavaFX b
 
 ## Approach
 
-We designed the application using a `BorderPane` layout. The JavaFX application contains a `Stage` and `Scene`, with the `BorderPane` used to organize the interface into different sections.
+We followed a step-by-step approach:
 
-The top section contains the browser controls such as the URL field and Load button. The center section is reserved for the `WebView`, which will provide browser support. A Change DOM button is included for the future DOM manipulation functionality.
+1. Created the main JavaFX application window using `Stage`.
+2. Created a `Scene` to hold the application interface.
+3. Used `BorderPane` as the main layout container.
+4. Created a `WebView` to provide the browser area.
+5. Created an `HBox` to arrange the buttons horizontally.
+6. Added buttons for different DOM operations.
+7. Placed the `WebView` in the center of the interface.
+8. Placed the button bar at the bottom of the interface.
+9. Connected button actions to JavaFX event handlers.
+10. Tested the complete interface.
 
 ## UI Structure
 
