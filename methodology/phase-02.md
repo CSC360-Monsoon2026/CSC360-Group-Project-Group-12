@@ -1,5 +1,5 @@
 # Phase 2: Basic JavaFX Interface — Methodology
-
+![JavaFX Application Structure](../images/phase2.png)
 ## Objective
 
 The objective of Phase 2 was to create the basic user interface for the JavaFX browser application and organize its components using a suitable layout.
