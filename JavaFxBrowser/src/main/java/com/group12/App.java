@@ -25,46 +25,70 @@ public class App extends Application {
 
         webEngine.load(htmlPage);
 
-        // Create JavaFX button
-        Button changeButton = new Button("Change DOM");
+        // Create buttons
+        Button changeTextButton = new Button("Change Text");
+        Button changeColorButton = new Button("Change Color");
+        Button resetButton = new Button("Reset Page");
 
-        // Button action
-        changeButton.setOnAction(event -> {
+        // Change Text button
+        changeTextButton.setOnAction(event -> {
 
-            // Change heading text
             webEngine.executeScript(
-                    "document.getElementById('title').innerText = 'DOM Changed by JavaFX!';"
+                    "document.getElementById('title').innerText = 'Text changed by JavaFX! (click #1)';"
             );
 
-            // Change paragraph text
             webEngine.executeScript(
-                    "document.getElementById('message').innerText = 'JavaFX successfully changed the browser DOM.';"
-            );
-
-            // Change heading color
-            webEngine.executeScript(
-                    "document.getElementById('title').style.color = 'blue';"
-            );
-
-            // Change paragraph color
-            webEngine.executeScript(
-                    "document.getElementById('message').style.color = 'green';"
+                    "document.getElementById('message').innerText = 'This DOM update came from a Java button click.';"
             );
         });
 
-        // Top bar
-        HBox topBar = new HBox(10);
-        topBar.getChildren().add(changeButton);
+        // Change Color button
+        changeColorButton.setOnAction(event -> {
+
+            webEngine.executeScript(
+                    "document.getElementById('title').style.color = '#e63946';"
+            );
+        });
+
+        // Reset Page button
+        resetButton.setOnAction(event -> {
+
+            webEngine.executeScript(
+                    "document.getElementById('title').innerText = 'Hello, this is the original text!';"
+            );
+
+            webEngine.executeScript(
+                    "document.getElementById('message').innerText = 'Waiting for JavaFX to make a change...';"
+            );
+
+            webEngine.executeScript(
+                    "document.getElementById('title').style.color = 'black';"
+            );
+
+            webEngine.executeScript(
+                    "document.getElementById('message').style.color = '#666666';"
+            );
+        });
+
+        // Create button bar
+        HBox buttonBar = new HBox(15);
+        buttonBar.setStyle("-fx-alignment: center; -fx-padding: 15;");
+
+        buttonBar.getChildren().addAll(
+                changeTextButton,
+                changeColorButton,
+                resetButton
+        );
 
         // Main layout
         BorderPane root = new BorderPane();
-        root.setTop(topBar);
         root.setCenter(webView);
+        root.setBottom(buttonBar);
 
         // Create scene
         Scene scene = new Scene(root, 1000, 700);
 
-        stage.setTitle("JavaFX Browser - DOM Manipulation");
+        stage.setTitle("CSC360 Group 12 - JavaFX WebView DOM Controller");
         stage.setScene(scene);
         stage.show();
     }
